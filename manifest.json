@@ -1,0 +1,16 @@
+{
+    "name": "Better Canvas Peer Reviews",
+    "description": "Allows you to better intreact with canvas on peer reviews",
+    "version": "0.1",
+    "manifest_version": 3,
+    "content_scripts": [
+        {
+            "css": [
+                "styles.css"
+            ],
+            "matches": [
+                "https://utah.instructure.com/*"
+            ]
+        }
+    ]
+}
