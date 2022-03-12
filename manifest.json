@@ -9,8 +9,13 @@
                 "styles.css"
             ],
             "matches": [
-                "https://utah.instructure.com/*"
+                "https://*.instructure.com/*"
             ]
         }
-    ]
+    ],
+    "icons": {
+        "16": "canvas-ext-16.png",
+        "48": "canvas-ext-48.png",
+        "128": "canvas-ext-128.png"
+    }
 }

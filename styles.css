@@ -1,3 +1,26 @@
-.ic-Input {
-  resize: both;
+.submission-details-container {
+  /*flex container*/
+  width: 90vw !important;
+}
+
+.submission-details-frame {
+  /*submission view area like files and text */
+  flex-grow: 1 !important;
+}
+
+.submission-details-comments {
+  /* comment area */
+  flex-grow: 1 !important;
+}
+
+.ic-Input.grading_comment {
+  /*allows resize of comment box*/
+  resize: vertical;
+  width: 100% !important;
+  height: 500px !important;
+}
+
+.add_a_comment {
+  width: 100% !important;
+  height: 500px !important;
 }
