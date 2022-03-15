@@ -24,3 +24,7 @@
   width: 100% !important;
   height: 500px !important;
 }
+
+.sidebar-on {
+  width: 70vw !important;
+}
