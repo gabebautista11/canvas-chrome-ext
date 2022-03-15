@@ -1,7 +1,7 @@
 {
   "name": "Better Canvas Peer Reviews",
   "description": "Allows you to better intreact with canvas on peer reviews",
-  "version": "0.1",
+  "version": "0.2",
   "manifest_version": 3,
   "content_scripts": [
     {
