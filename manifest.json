@@ -1,24 +1,18 @@
 {
-    "name": "Better Canvas Peer Reviews",
-    "description": "Allows you to better intreact with canvas on peer reviews",
-    "version": "0.1",
-    "manifest_version": 3,
-    "content_scripts": [
-        {
-            "css": [
-                "styles.css"
-            ],
-            "js": [
-                "index.js"
-            ],
-            "matches": [
-                "https://*.instructure.com/*"
-            ]
-        }
-    ],
-    "icons": {
-        "16": "canvas-ext-16.png",
-        "48": "canvas-ext-48.png",
-        "128": "canvas-ext-128.png"
+  "name": "Better Canvas Peer Reviews",
+  "description": "Allows you to better intreact with canvas on peer reviews",
+  "version": "0.1",
+  "manifest_version": 3,
+  "content_scripts": [
+    {
+      "css": ["styles.css"],
+      "js": ["index.js"],
+      "matches": ["https://*.instructure.com/*"]
     }
+  ],
+  "icons": {
+    "16": "canvas-ext-16.png",
+    "48": "canvas-ext-48.png",
+    "128": "canvas-ext-128.png"
+  }
 }
